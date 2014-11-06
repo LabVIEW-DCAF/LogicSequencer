@@ -20,6 +20,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Prototype" Type="Folder">
+			<Item Name="controls" Type="Folder">
+				<Item Name="RungLogicState.ctl" Type="VI" URL="../Prototype/Controls/RungLogicState.ctl"/>
+				<Item Name="SequenceCluster.ctl" Type="VI" URL="../Prototype/Controls/SequenceCluster.ctl"/>
+			</Item>
+			<Item Name="subVIs" Type="Folder">
+				<Item Name="pAnalyzeSequence.vi" Type="VI" URL="../Prototype/subVIs/pAnalyzeSequence.vi"/>
+				<Item Name="pInitialize.vi" Type="VI" URL="../Prototype/subVIs/pInitialize.vi"/>
+				<Item Name="pLogicEngine.vi" Type="VI" URL="../Prototype/subVIs/pLogicEngine.vi"/>
+				<Item Name="ReadWriteInputOutput.vi" Type="VI" URL="../Prototype/subVIs/ReadWriteInputOutput.vi"/>
+			</Item>
+			<Item Name="SequencerPrototype.vi" Type="VI" URL="../Prototype/SequencerPrototype.vi"/>
+		</Item>
 		<Item Name="Logic Sequencer configuration.lvclass" Type="LVClass" URL="../module/configuration/Logic Sequencer configuration.lvclass"/>
 		<Item Name="Logic Sequencer editor node.lvclass" Type="LVClass" URL="../editor node/Logic Sequencer editor node.lvclass"/>
 		<Item Name="Logic Sequencer runtime.lvclass" Type="LVClass" URL="../module/execution/Logic Sequencer runtime.lvclass"/>
